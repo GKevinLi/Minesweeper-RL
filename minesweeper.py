@@ -561,7 +561,7 @@ def evalAction(posX, posY, a):
     #     print(endConditionsSatisfied())
     if endConditionsSatisfied():
         gameEnded = True
-        print("DING DING DING")
+        
         reward += 1
     # print(reward)
     return reward
